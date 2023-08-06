@@ -1,8 +1,15 @@
 import React from 'react'
+import Chars from "../components/Chars"
+import Deadlock from '../components/Deadlock'
+import Intro from '../components/Intro'
+
 
 const Home = () => {
-  return ( <div>
-      deneme
+  return (
+    <div>
+      <Intro/>
+      <Deadlock />
+      <Chars />
     </div>
   )
 }
