@@ -10,7 +10,7 @@ import viper from "../assets/viper.webp"
 
 const Chars = () => {
   return (
-    <div className=" h-screen -mt-12 relative mt-5 backgrounddiv 	">
+    <div className=" h-screen -mt-12 relative mt-5  	">
   
       <div className='relative flex'>
         <div> <img src={viper} className='h-screen object-cover' /></div>
