@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
 
 :root {
@@ -54,20 +55,20 @@ padding: 0;
 
 
 .backgrounddiv{
-    background-image: url(../assets/background.jpg);
     background-position: bottom;
     background-size:cover;
     background-repeat: no-repeat;
 }
 
-#video-background {
-    }
+
+
 
 .deadlockbg{
     background-image: url(../assets/bg.png);
     background-position: center;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
+
 }
 
 
@@ -195,3 +196,58 @@ padding: 0;
   
   
   
+
+  #progress {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transform: rotate(-90deg);
+  }
+  
+ 
+  
+  #progress .indicator {
+    stroke: white;
+  }
+  
+  .agent-ul {
+    display: flex;
+    list-style: none;
+    padding: 20px 50px;
+    overflow-x: scroll;
+    flex: 0 0 600px;
+    height: 650px;
+  }
+
+
+  ::-webkit-scrollbar {
+    display: none;
+    height: 5px;
+    width: 5px;
+    background: #fff3;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #fff3;
+  }
+  
+  .agent-li {
+    background: rgb(25, 18, 18);
+    margin: 0 20px 0 0;
+    
+  }
+
+  .agent-li:last-of-type {
+    margin: 0;
+  }
+  
+  
+  .agent-li:hover .name {
+    opacity: 0;
+  }

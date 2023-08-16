@@ -1,15 +1,18 @@
 import React from 'react'
-import Chars from "../components/Chars"
+import Section from "../components/Section"
 import Deadlock from '../components/Deadlock'
 import Intro from '../components/Intro'
+import Agents from '../components/Agents'
 
 
 const Home = () => {
+  
   return (
     <div>
       <Intro/>
+      <Agents/>
       <Deadlock />
-      <Chars />
+      <Section />
     </div>
   )
 }

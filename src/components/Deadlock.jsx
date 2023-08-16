@@ -14,10 +14,10 @@ const container= useRef(null);
 
 
   return (
-    <div ref={container}>
+    <div ref={container} className='mr-20' >
     <div className='h-screen w-screen relative mt-5 '  >
       <div className='pt-[50px]'>
-        <p className=' text-left uppercase ml-[120px]  ' style={{ fontFamily: " 'Signika Negative', sans-serif", color: "#fc3e4e", fontSize: "45px", fontWeight: "bolder", }} > Yeni Ajan Alarmı </p>
+        <p className=' text-left uppercase ml-[120px]  ' style={{ fontFamily: "'Raleway', sans-serif;", color: "#fc3e4e", fontSize: "45px", fontWeight: "bolder", }} > Yenİ Ajan DEADLOCK <br/> İle tanışın </p>
         <div className='flex '   >
           <motion.div className='max-w-[25%] z-1 text-left mt-24 ml-[170px]   p-12 text-slate-700 z-10	' style={{ fontFamily: "'Signika Negative', sans-serif", fontSize: "20px", fontWeight: "300", borderLeft: "2px solid #cbd5e0" ,zIndex:"-1"}}  > <p>Norveçli ajan Deadlock, savaş esnasında en ölümcül saldırıları bile savuşturabilecek son teknoloji bir nanobağ ağı kullanır. Keskin gözlerinden kaçan, vahşetinden kurtulan olmamıştır.</p></motion.div>
           <div className='flex ' >

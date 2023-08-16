@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import Agent from './pages/Agent';
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
        <Navbar/>
       <Routes>
         <Route path="/"  element={<Home/>} />
-        <Route path="/agent"  element={<Agent/>} />
 
       </Routes>
     </Router>
